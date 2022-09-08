@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #778899 ;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .password {
+    padding: 10px;
+    margin: 10px;
+    caret-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .password-button{
+    padding: 10px;
+    background-color: blueviolet;
+    border-color: white;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 2px;
+  }
